@@ -20,7 +20,7 @@ Priced at an estimated **₦73,000–₦115,000** using locally sourced componen
 - 5 Degrees of Freedom (DOF) — one servo motor per finger
 - Arduino Uno/Nano microcontroller-driven actuation
 - Tendon-driven biomimetic design for natural grasping motion
-- Estimated cost: ₦73,000 – ₦115,000 (locally sourced components)
+- Estimated cost: ₦40,000 – ₦80,000 (locally sourced components)
 - Open-source: full GitHub documentation and assembly guides
 - Target: ≥ 90% success rate grasping everyday Nigerian objects
 - Minimum durability target: 500 operational cycles
