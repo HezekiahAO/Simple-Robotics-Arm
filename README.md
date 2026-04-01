@@ -146,6 +146,7 @@ The 10-member OAU student team adopts an agile, collaborative engineering proces
 ![Robot Arm 1](https://github.com/user-attachments/assets/18343ad8-65ff-4c54-80d0-763888f1c500)
 
 
+![3](https://github.com/user-attachments/assets/dda8a593-40b0-4c97-baf4-a5e10dc5d4d5)
 
 ## Conclusion
 
