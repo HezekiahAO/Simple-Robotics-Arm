@@ -7,7 +7,7 @@ Servo middleFinger;
 Servo ringFinger;
 Servo pinkyFinger;
 
-// Servo pin assignments (unchanged)
+// Servo pin assignments
 const int THUMB_PIN  = 8;
 const int INDEX_PIN  = 9;
 const int MIDDLE_PIN = 10;
@@ -15,14 +15,14 @@ const int RING_PIN   = 11;
 const int PINKY_PIN  = 12;
 
 // Button pin assignments
-const int THUMB_BTN_PIN   = 2;  // Controls thumb only
-const int FINGERS_BTN_PIN = 4;  // Controls 4 fingers sequentially
+const int THUMB_BTN_PIN   = 2;  // Arduino Pin that Controls thumb only
+const int FINGERS_BTN_PIN = 4;  // Arduino pin that Controls 4 fingers sequentially
 
 // Position constants
 const int OPEN_POS        = 0;
 const int CLOSED_POS      = 180;
-const int MOVE_DELAY      = 1;   // Speed of each servo sweep (ms per degree)
-const int FINGER_INTERVAL = 1    00; // Pause between each finger folding (ms)
+const int MOVE_DELAY      = 3;   // Speed of each servo sweep (ms per degree)
+const int FINGER_INTERVAL = 100; // Pause between each finger folding (ms)
 
 // Thumb array
 Servo thumb_arr[] = {thumb};
@@ -96,9 +96,7 @@ void toggleThumb() {
   } else {
     Serial.println("Thumb folding...");
     moveSingle(thumb_arr[0], CLOSED_POS);
-    thumbClosed = true;
-  }
-}
+    thumbClosed = true;}}
 
 // ------------------------------------
 // Read button with debounce
@@ -109,12 +107,10 @@ bool buttonPressed(int pin, int &lastState) {
   if (lastState == HIGH && currentState == LOW) {
     delay(50); // Debounce
     lastState = currentState;
-    return true;
-  }
+    return true;}
 
   lastState = currentState;
-  return false;
-}
+  return false;}
 
 void setup() {
   Serial.begin(9600);
