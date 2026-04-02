@@ -44,7 +44,7 @@ int lastFingersBtnState = HIGH;
 // ------------------------------------
 // Move a single servo to target pos
 // ------------------------------------
-void moveSingle(Servo &srv, int targetPos) {
+void moveSingle(Servo srv, int targetPos) {
   int currentPos = srv.read();
   int step = (targetPos > currentPos) ? 1 : -1;
 
