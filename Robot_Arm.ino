@@ -70,6 +70,9 @@ void foldSequential() {
   fingersClosed = true;
 }
 
+
+
+
 // ------------------------------------
 // Release fingers one by one:
 // index → middle → ring → pinky
