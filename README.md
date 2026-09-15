@@ -1,6 +1,6 @@
 # Simple-Robotics-Arm
 
-# 🦾 Low-Cost Robotic Hand — OAU Faculty of Technology
+# 🦾 Low-Cost Robotic Hand OAU Faculty of Technology
 
 ---
 
@@ -9,11 +9,11 @@
 
 ## Summary
 
-This project is undertaken by a group of ten Part 4 students in the Faculty of Technology (Departments of Computer Science and Engineering) at Obafemi Awolowo University (OAU), Ile-Ife. It focuses on the development of a low-cost robotic hand using servo motors, designed to replicate fundamental human hand movements — most notably grasping — through the precise control of five servo motors driven by an Arduino microcontroller.
+This project is undertaken by a group of ten Part 4 students in the Faculty of Technology (Departments of Computer Science and Engineering) at Obafemi Awolowo University (OAU), Ile-Ife. It focuses on the development of a low-cost robotic hand using servo motors, designed to replicate fundamental human hand movements most notably grasping — through the precise control of five servo motors driven by an Arduino microcontroller.
 
-In Nigeria's context, where access to advanced prosthetics and robotic technologies is severely limited by high import costs, foreign exchange challenges, and inadequate local manufacturing capacity, this student-led initiative promotes indigenous innovation and self-reliance. With millions of Nigerians affected by limb disabilities — including upper-limb amputations resulting from trauma, diabetes complications, and accidents — and with federal universities like OAU facing significant resource constraints in practical STEM training, this project delivers an affordable, open-source solution.
+In Nigeria's context, where access to advanced prosthetics and robotic technologies is severely limited by high import costs, foreign exchange challenges, and inadequate local manufacturing capacity, this student-led initiative promotes indigenous innovation and self-reliance. With millions of Nigerians affected by limb disabilities including upper-limb amputations resulting from trauma, diabetes complications, and accidents and with federal universities like OAU facing significant resource constraints in practical STEM training, this project delivers an affordable, open-source solution.
 
-Priced at an estimated **₦73,000–₦115,000** using locally sourced components (e.g., from Computer Village in Lagos or Osogbo markets), the project aligns with national development goals under the **Sustainable Development Goals (SDGs)** — specifically Goal 3 (Good Health and Well-being) and Goal 9 (Industry, Innovation and Infrastructure).
+Priced at an estimated **₦73,000–₦115,000** using locally sourced components (e.g., from Computer Village in Lagos or Osogbo markets), the project aligns with national development goals under the **Sustainable Development Goals (SDGs)** specifically Goal 3 (Good Health and Well-being) and Goal 9 (Industry, Innovation and Infrastructure).
 
 ### Key Highlights
 
@@ -33,7 +33,7 @@ Nigeria faces persistent and interconnected challenges spanning assistive techno
 
 ### Healthcare Gaps & Assistive Technology
 
-Limb disabilities — including upper-limb amputations — are prevalent in Nigeria due to road traffic accidents, industrial incidents, diabetes complications, and conflict-related injuries. Despite this, commercial prosthetics remain deeply unaffordable, with costs ranging from **₦500,000 to ₦5,000,000** — far exceeding the national minimum wage of ₦70,000 per month. This pricing barrier leaves the majority of Nigerians with limb disabilities without access to meaningful assistive devices.
+Limb disabilities including upper-limb amputations are prevalent in Nigeria due to road traffic accidents, industrial incidents, diabetes complications, and conflict-related injuries. Despite this, commercial prosthetics remain deeply unaffordable, with costs ranging from **₦500,000 to ₦5,000,000** far exceeding the national minimum wage of ₦70,000 per month. This pricing barrier leaves the majority of Nigerians with limb disabilities without access to meaningful assistive devices.
 
 ### Educational Constraints in Federal Universities
 
